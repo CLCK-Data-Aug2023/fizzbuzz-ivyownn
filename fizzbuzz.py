@@ -1,14 +1,15 @@
 # add your code here
-for fizzbuzz in range(100):
+for fizzbuzz in range(1, 101):
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
-        print("fizzbuzz")
+        print("FizzBuzz")
         continue
     elif fizzbuzz % 3 == 0:
-        print("fizz")
+        print("Fizz")
         continue
     elif fizzbuzz % 5 == 0:
-        print("buzz")
+        print("Buzz")
         continue
-    print(fizzbuzz)
+    else:
+        print(fizzbuzz)
 
 #recommit
